@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--<link rel="stylesheet" type="text/css" media="all" th:href="@{/css/bootstrap.css}"/>-->
+
+    <link rel="stylesheet" type="text/css" media="all" th:href="@{/css/bootstrap.css}"
+          href="../static/css/bootstrap.css" />
+</head>
+<body>
+	<div class="container">
+	    <div class="jumbotron">
+			<p>Name: <span class="text-info text-center" th:text="*{message}"></span></p>
+	    </div>
+	</div>
+</body>
+</html>
