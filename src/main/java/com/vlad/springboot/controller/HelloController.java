@@ -20,7 +20,7 @@ public class HelloController {
 	String home(ModelMap model) {
 		model.addAttribute("title", "Dear Learner");
 		model.addAttribute("message", "Welcome to SpringBoot");
-		return "hello";
+		return "index";
 	}
 
 	@GetMapping("/users")
